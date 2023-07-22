@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="listViewBM" type="id" />
+    <item name="editTextBMDTextMultiline" type="id" />
+    <item name="listViewOD" type="id" />
+    <item name="textView_logo4" type="id" />
+    <item name="listViewHA" type="id" />
+    <item name="ListViewHAD" type="id" />
+    <item name="listViewDD" type="id" />
+    <item name="editTextLTDTextMultiline" type="id" />
+    <item name="listViewLT" type="id" />
+    <!--    <item name="listViewDD" type="id" />-->
+</resources>

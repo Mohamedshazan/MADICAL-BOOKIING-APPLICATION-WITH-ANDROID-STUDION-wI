@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?><!--suppress ALL -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+package="myapplication">
+
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+<uses-permission android:name="android.permission.INTERNET" />
+
+<application
+    android:allowBackup="true"
+    android:dataExtractionRules="@xml/data_extraction_rules"
+    android:fullBackupContent="@xml/backup_rules"
+    android:icon="@mipmap/ic_launcher"
+    android:label="@string/back"
+    android:supportsRtl="true"
+    android:theme="@style/Theme.MyApplication"
+    tools:targetApi="31">
+
+    <activity
+        android:name=".AdminLoginActivity"
+        android:exported="false"
+        tools:ignore="MissingClass" />
+
+    <!--        <activity-->
+    <!--            android:name=".WalcomeActivity"-->
+    <!--            android:exported="false"-->
+    <!--            tools:ignore="MissingClass" />-->
+
+    <activity
+        android:name=".HealthArticleDetailsActivity"
+        android:exported="false"
+        tools:ignore="MissingClass" />
+
+    <activity
+        android:name=".HealthArticleActivity"
+        android:exported="false" />
+
+    <activity
+        android:name=".BuyMedicineBookActivity"
+        android:exported="false" />
+
+    <activity
+        android:name=".CardBuyMedicineActivity"
+        android:exported="false" />
+
+    <activity
+        android:name=".buymedicineActivity"
+        android:exported="false" />
+
+    <activity
+        android:name=".BuyMedicineDetailsActivity"
+        android:exported="false" />
+
+    <activity
+        android:name=".CardLabActivity"
+        android:exported="false" />
+
+    <activity
+        android:name=".OrderDetailsActivity"
+        android:exported="false" />
+
+    <activity
+        android:name=".LabTestBookActivity"
+        android:exported="false" />
+
+    <activity
+        android:name=".LabTDetailsestActivity"
+        android:exported="false" />
+
+    <activity
+        android:name=".LabTestActivity"
+        android:exported="false" />
+
+    <activity
+        android:name=".BookAppointmentActivity"
+        android:exported="false" />
+
+    <activity
+        android:name=".DoctorDetailsActivity"
+        android:exported="false" />
+
+    <activity
+        android:name=".FindDoctorActivity"
+        android:exported="false" />
+
+    <activity
+        android:name=".HomeActivity"
+        android:exported="false" />
+
+    <activity
+        android:name=".RegisterActivity"
+        android:exported="false" />
+
+    <activity
+        android:name=".LoginActivity"
+        android:exported="false"
+        tools:ignore="MissingClass" />
+    <activity
+        android:name=".WalcomeActivity"
+        android:exported="false"
+        tools:ignore="MissingClass" />
+    <activity
+        android:name="com.example.myapplication.SensorActivity"
+        android:exported="false">
+    </activity>
+
+    <activity
+        android:name=".MainActivity"
+        android:exported="true"
+        tools:ignore="MissingClass">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+
+</application>
+
+</manifest>
+
+
+
+<!--<manifest xmlns:android="http://schemas.android.com/apk/res/android">-->
+<!--<application>-->
+<!--    <activity-->
+<!--        android:name="com.example.myapplication.SensorActivity"-->
+<!--        android:exported="false">-->
+<!--    </activity>-->
+<!--</application>-->
+<!--</manifest>-->
+
+
